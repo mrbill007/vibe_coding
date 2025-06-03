@@ -18,7 +18,7 @@ body {
   border-radius: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  width: 320px;
+  width: 400px;
 }
 
 .display {
@@ -34,7 +34,7 @@ body {
   text-align: right;
   padding: 0 20px;
   font-size: 24px;
-  color: #3020df;
+  color: #333;
 }
 
 .buttons {
@@ -64,6 +64,16 @@ button:hover {
 
 .operator:hover {
   background: #d0ebff;
+}
+
+.scientific {
+  background: #f1f3f5;
+  color: #495057;
+  font-size: 16px;
+}
+
+.scientific:hover {
+  background: #e9ecef;
 }
 
 .equals {
